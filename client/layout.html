@@ -1,6 +1,6 @@
 <template name="layout">
-	{{> header}}
+	{{> yield "top"}}
 	<div class="container">
-		{{> yield}}
+		{{> yield "bottom"}}
 	</div>
 </template>

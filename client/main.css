@@ -5,11 +5,11 @@ canvas{
   top:0px;
   right:0px;
 }
-a:hover .ion-ios-home, a:hover .ion-ios-book, a:hover .ion-ios-email, .home-text, .work-text, .contact-text {
+a:hover .ion-ios-home, a:hover .ion-ios-book, a:hover .ion-ios-email, .home-text, .work-text, .contact-text, .last-text, .next-text, a:hover .ion-arrow-left-a, a:hover .ion-arrow-right-a {
     display: none;
 }
 
-a:hover .work-text, a:hover .home-text, a:hover .contact-text {
+a:hover .work-text, a:hover .home-text, a:hover .contact-text, a:hover .last-text, a:hover .next-text {
     display: inline;
     font-size: 0.8em;
 }

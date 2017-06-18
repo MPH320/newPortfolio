@@ -1,4 +1,13 @@
 Template.header.rendered = function(){
+	startParticles();
+}
+
+Template.portfolioHeader.rendered = function(){
+	startParticles();
+}
+
+function startParticles(){
+
 
 	var resizeDelay = 1000;
 	var doResize = false;
@@ -135,4 +144,5 @@ ready();
 			var resizerInterval = setInterval(resizer, resizeDelay);
 			resizer();
 	}
+		
 }
