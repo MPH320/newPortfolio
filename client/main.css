@@ -1,0 +1,15 @@
+/* CSS declarations go here */
+canvas{
+	position:fixed;
+  z-index: -1;
+  top:0px;
+  right:0px;
+}
+a:hover .ion-ios-home, a:hover .ion-ios-book, a:hover .ion-ios-email, .home-text, .work-text, .contact-text {
+    display: none;
+}
+
+a:hover .work-text, a:hover .home-text, a:hover .contact-text {
+    display: inline;
+    font-size: 0.8em;
+}
