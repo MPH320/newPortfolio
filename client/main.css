@@ -13,3 +13,11 @@ a:hover .work-text, a:hover .home-text, a:hover .contact-text, a:hover .last-tex
     display: inline;
     font-size: 0.8em;
 }
+
+.items{
+	position: absolute;
+	left:0;
+
+	border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
