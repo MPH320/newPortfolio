@@ -21,3 +21,22 @@ a:hover .work-text, a:hover .home-text, a:hover .contact-text, a:hover .last-tex
 	border-radius: 0 !important;
   -moz-border-radius: 0 !important;
 }
+
+form {
+	margin-top: 10%;
+	margin-left:25%;
+}
+
+.projects {
+	margin-top: 2.5%;
+}
+
+.portfolioitems {
+	height:auto;
+	width:100%;
+	padding-bottom: 5%;
+}
+
+.last-item{
+	padding-bottom: 20%;
+}

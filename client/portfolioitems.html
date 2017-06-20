@@ -1,8 +1,61 @@
-<template name="portfolioItems">
-	<div class="navbar navbar-inverse pull-left items navbar-collapse collapse items">
-		<ul class="nav nav-stacked hello">
-			
+<template name="pong">
+	
+	{{> portfolioNav}}
+
+	<div>
 		
+		<div class="col-lg-8 col-lg-offset-4">
+			<h1 class="visible-lg-block">&emsp;&emsp;&emsp;&emsp;Pong LG</h1>
+    </div>
+		
+		<div class="col-md-8 clo-mg-offset-4">
+			<h1 class="visible-md-block text-center">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Pong MD</h1>
+    </div>
+		
+		<div class="col-xs-12">
+			<h1 class="visible-xs-block visible-sm-block text-center">Pong XS</h1>
+    </div>
+		
+		<div class="col-lg-8 col-lg-offset-4 col-md-4 col-md-offset-3">
+			<h3>PongPongPongPongPongPongPongPongPongPong</h3>
+			<h3>PongPongPongPongPongPongPongPongPongPong</h3>
+			<h3>PongPongPongPongPongPongPongPongPongPong</h3>
+			<h3>PongPongPongPongPongPongPongPongPongPong</h3>
+    </div>
+		
+		<div class="col-lg-4 col-lg-offset-8 col-md-8 col-md-offset-3">
+			<img class="pull-right" style="width:200px; height:200px; " src="pong.jpg">
+    </div>
+	</div>
+</template>
+
+<template name="angular-jams">
+	
+	{{> portfolioNav}}
+
+	<div>
+		<h1>AG</h1>
+	</div>
+</template>
+
+<template name="bloccit">
+	
+	{{> portfolioNav}}
+
+	<div>
+		<h1>Bloccit</h1>
+	</div>
+</template>
+
+<template name="portfolioNav">
+	<div class="navbar navbar-inverse pull-left items navbar-collapse collapse items" >
+		<ul class="nav nav-stacked">
+			<span><a href='/bloccit'><img class="portfolio-nav" src='bloccit.jpg'></a></span><br>
+		  <span><a href='#'><img class="portfolio-nav" src='htmlshare.jpg'></a></span><br>
+			<span><a href='#'><img class="portfolio-nav" src='bloc-jams.png'></a></span><br>
+			<span><a href='/pong'><img class="portfolio-nav" src='pong.jpg'></a></span><br>
+			<span><a href='#'><img class="portfolio-nav" src='tweetsearch.jpg'></a></span><br>
+			<span><a href='/angular-jams'><img class="portfolio-nav" src='angular-jams.png'></a></span><br>
 		</ul>
 	</div>
 </template>

@@ -1,3 +1,33 @@
 <template name="contact">
-	Contact
+	{{> contactForm}}
+</template>
+
+<template name="contactForm">
+        <form>
+					<div class="row">
+            <div class="col-xs-8">
+                <label>Name</label>
+                <input class="form-control" type="text" name="contact-name" id="contact-name"/>
+            </div>
+					</div>
+					<div class="row">
+            <div class="col-xs-8">
+                <label>Email</label>
+                <input class="form-control" type="text" name="contact-email" id="contact-email"/>
+            </div>
+					</div>
+					<div class="row">
+            <div class="col-xs-8">
+                <br>
+                <label>Message</label>
+                <textarea class="form-control" rows="6" name="contact-message" id="contact-message"></textarea>
+            </div>
+            <div class="col-xs-8 text-right">
+                <br>
+                <button type="submit" class="btn">Send</button>
+                <br>
+                <br>
+            </div>
+					</div>
+        </form>
 </template>

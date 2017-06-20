@@ -23,7 +23,17 @@ Router.configure({
       this.render('contact', {to:"bottom"});
     });
 
- Router.route('/portfolioitems', function () {    
+ Router.route('/angular-jams', function () {    
       this.render('portfolioHeader', {to:"top"});
-      this.render('portfolioItems', {to:"bottom"});
+      this.render('angular-jams', {to:"bottom"});
+    });
+
+ Router.route('/bloccit', function () {    
+      this.render('portfolioHeader', {to:"top"});
+      this.render('bloccit', {to:"bottom"});
+    });
+
+ Router.route('/pong', function () {    
+      this.render('portfolioHeader', {to:"top"});
+      this.render('pong', {to:"bottom"});
     });
