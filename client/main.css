@@ -28,7 +28,7 @@ form {
 }
 
 .projects {
-	margin-top: 2.5%;
+	margin-top: 1%;
 }
 
 .portfolioitems {
@@ -38,5 +38,21 @@ form {
 }
 
 .last-item{
-	padding-bottom: 20%;
+	padding-bottom: 15%;
 }
+
+.sm-img {
+	width: 200px;
+	height: 200px;
+}
+
+.md-img {
+	width: 250px;
+	height: 250px;
+}
+
+.lg-img {
+	width: 300px;
+	height: 300px;
+}
+
