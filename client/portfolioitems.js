@@ -1,9 +1,9 @@
 var height;
 var amount = 6;
 
-
-Template.portfolioNav.rendered = function(){
-	var $img = $(".bw-img");
+function flicker() 
+{
+		var $img = $(".bw-img");
 
 	$img.mouseover(function(e) {
     var src = $(this).attr("src");
@@ -15,7 +15,12 @@ Template.portfolioNav.rendered = function(){
 		src = "bw/" + src;
 		$(this).attr("src", src);
 	});
-	
+}
+
+
+Template.portfolioNav.rendered = function(){
+
+	flicker();
 	
 
 	addItems(); 
@@ -43,4 +48,14 @@ function addItems()
 	for (var i = 0; i<amount; i++){
 			$(".portfolio-nav").width(height).height(height);
 	}
+}
+
+
+
+Template.projects.rendered = function(){
+	flicker();
+}
+
+Template.bloccit.rendered = function(){
+	flicker();
 }
