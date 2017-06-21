@@ -7,7 +7,7 @@
 		<div class="visible-lg-block"><br>
 			<h1 class="col-lg-4 col-lg-offset-4 text-center animate">&emsp;&emsp;&emsp;&emsp;Pong</h1><br><br>
 			
-			<h3 class="col-lg-offset-2 col-lg-4 animate">Pong made with javascript animations. Used the HTML5 canvas element to create the table, paddles, and ball. Created an animate function to 'repaint' the game view every 60 seconds. Called .addEventListener() on the window object to listen for the player's mouse movement. Created an algorithm to position the computer's paddle based on the ball's position. Made a method to detect collisions and update the ball's direction.</h3><br>
+			<h3 class="col-lg-offset-2 col-lg-4 animate">Pong made with javascript animations. Used the HTML5 canvas element to create the table, paddles, and ball. Created an animate function to 'repaint' the game view every 60 seconds. Called .addEventListener() on the window object to listen for the player's mouse movement. Created an algorithm to position the computer's paddle based on the ball's position. Made a method to detect collisions and update the ball's direction.</h3><br><br>
 			
 			<img class="center-block lg-img" src="gif/pong.gif"><br><br><br><br><br><br><br><br><br><br>
     </div>
@@ -248,6 +248,47 @@
 	</div>
 </template>
 
+<template name="tweetsearch">
+	
+	{{> portfolioNav}}
+
+	<div>
+		
+		<div class="visible-lg-block"><br>
+			<h1 class="col-lg-8 col-lg-offset-4 animate">&emsp;&emsp;&emsp;&emsp;TweetSearch</h1><br><br>
+			
+			<h3 class="col-lg-offset-2 col-lg-4 animate">Used Codebird to retrieve information from the Twitter API. Created a form to query for tweets using the POST method. Used PHP to show the returned information on a new page. Displayed all the tweets by iterating over the retrieved JSON object with a foreach loop. Styled the page using css.</h3><br><br><br>
+			
+			<img class="center-block lg-img" src="gif/tweetsearch.gif"><br><br><br><br><br><br><br><br>
+    </div>
+		
+		<div class="visible-md-block"><br>
+			<h1 class="col-md-8 col-md-offset-2 text-center animate">TweetSearch</h1><br><br><br><br>
+			
+				<h3 class=" col-md-4 col-md-offset-3 animate">Used Codebird to retrieve information from the Twitter API. Created a form to query for tweets using the POST method. Used PHP to show the returned information on a new page. Displayed all the tweets by iterating over the retrieved JSON object with a foreach loop. Styled the page using css.</h3><br>
+			
+			<img class="center-block md-img" src="gif/tweetsearch.gif"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+		
+		<div class="visible-sm-block"><br><br>
+			<h1 class="text-center col-sm-12 animate">&emsp;TweetSearch</h1><br><br><br><br>
+			
+				<h3 class="col-sm-4 col-sm-offset-2 animate">Used Codebird to retrieve information from the Twitter API. Created a form to query for tweets using the POST method. Used PHP to show the returned information on a new page. Displayed all the tweets by iterating over the retrieved JSON object with a foreach loop. Styled the page using css.</h3><br><br>
+			
+			<img class="center-block md-img" src="gif/tweetsearch.gif"><br><br><br><br><br><br><br>br><br><br><br><br><br><br><br><br><br>br><br><br><br><br><br><br>
+    </div>
+		
+		<div class="col-xs-12 visible-xs-block"><br><br>
+			<h1 class="text-center animate">TweetSearch</h1><br>
+			
+				<h3 class="animate">Used Codebird to retrieve information from the Twitter API. Created a form to query for tweets using the POST method. Used PHP to show the returned information on a new page. Displayed all the tweets by iterating over the retrieved JSON object with a foreach loop. Styled the page using css.</h3><br><br>
+			
+			<img class="center-block sm-img" src="gif/tweetsearch.gif"><br><br><br><br>
+    </div>
+		<div class="visible-xs-block">&nbsp;<br><br></div>
+	</div>
+</template>
+
 <template name="portfolioNav">
 	<div class="navbar navbar-inverse pull-left items navbar-collapse collapse items" >
 		<ul class="nav nav-stacked">
@@ -256,6 +297,7 @@
 			<span><a href='/blocjams'><img class="portfolio-nav bw-img" src='bw/bloc-jams.png'></a></span><br>
 			<span><a href='/pong'><img class="portfolio-nav bw-img" src='bw/pong.jpg'></a></span><br>
 			<span><a href='/mygamehole'><img class="portfolio-nav bw-img" src='bw/gamehole.jpg'></a></span><br>
+			<span><a href='/tweetsearch'><img class="portfolio-nav bw-img" src='bw/tweetsearch.jpg'></a></span><br>
 			<span><a href='/angularjams'><img class="portfolio-nav bw-img" src='bw/angular-jams.png'></a></span><br>
 		</ul>
 	</div>

@@ -1,9 +1,12 @@
 <template name="contact">
+	<div class="col-xs-12"><br><br><br>
+     <h1 class="text-center thanks animate">Thank you.</h1>
+  </div>
 	{{> contactForm}}
 </template>
 
 <template name="contactForm">
-        <form>
+        <form class="form-main">
 					<div class="row">
             <div class="col-xs-8">
                 <label>Name</label>
@@ -24,7 +27,7 @@
             </div>
             <div class="col-xs-8 text-right">
                 <br>
-                <button type="submit" class="btn btn-default last-item">Send</button>
+                <button type="button"  onclick="sendEmail()" class="btn btn-default last-item">Send</button>
                 <br>
                 <br>
             </div>

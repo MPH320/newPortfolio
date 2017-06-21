@@ -1,8 +1,5 @@
 var height;
-var amount = 6;
-
-	
-
+var amount = 7;
 
 function flicker() 
 {

@@ -37,6 +37,11 @@ Router.route('/mygamehole', function () {
       this.render('mygamehole', {to:"bottom"});
     });
 
+Router.route('/tweetsearch', function () {    
+      this.render('portfolioHeader', {to:"top"});
+      this.render('tweetsearch', {to:"bottom"});
+    });
+
 Router.route('/blocjams', function () {    
       this.render('portfolioHeader', {to:"top"});
       this.render('blocjams', {to:"bottom"});

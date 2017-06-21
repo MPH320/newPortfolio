@@ -1,4 +1,4 @@
-var stuff = ['/bloccit', '/htmlshare', '/blocjams', '/pong', '/mygamehole', '/angularjams'],
+var stuff = ['/bloccit', '/htmlshare', '/blocjams', '/pong', '/mygamehole', '/tweetsearch','/angularjams'],
 counter = 0;
 
 var addSpans = function(paragraph) 
@@ -69,10 +69,39 @@ Template.mygamehole.rendered = function(){
 	counter = 4;
 }
 
-Template.angularjams.rendered = function(){
+Template.tweetsearch.rendered = function(){
 	prepareLetters();
 	counter = 5;
 }
+
+Template.angularjams.rendered = function(){
+	prepareLetters();
+	counter = 6;
+}
+
+Template.contact.rendered = function(){
+	prepareLetters();
+}
+
+
+Template.contactForm.rendered = function(){
+	(function(){
+		emailjs.init("user_7FiBACuJwaA8eAfdk0iVg");
+	})();
+	
+	sendEmail = function() {
+
+	var text = $("textarea[name='contact-message']").val();
+	var email = $("input[name='contact-email']").val();
+	var senderName = $("input[name='contact-name']").val();
+	
+	emailjs.send("gmail","template_dnkogWqP",{name: senderName, notes: text, email: email});
+		$(".form-main").hide();
+		$(".thanks").css("display","block");
+	};
+}
+
+
 
 Template.portfolioHeader.rendered = function(){
 
