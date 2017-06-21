@@ -1,4 +1,4 @@
-var stuff = ['/bloccit', '/htmlshare', '/blocjams', '/pong', '/portfolioitems', '/angularjams'],
+var stuff = ['/bloccit', '/htmlshare', '/blocjams', '/pong', '/mygamehole', '/angularjams'],
 counter = 0;
 
 var addSpans = function(paragraph) 
@@ -62,6 +62,11 @@ Template.blocjams.rendered = function(){
 Template.pong.rendered = function(){
 	prepareLetters();
 	counter = 3;
+}
+
+Template.mygamehole.rendered = function(){
+	prepareLetters();
+	counter = 4;
 }
 
 Template.angularjams.rendered = function(){

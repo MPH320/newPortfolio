@@ -32,6 +32,11 @@ Router.route('/htmlshare', function () {
       this.render('htmlshare', {to:"bottom"});
     });
 
+Router.route('/mygamehole', function () {    
+      this.render('portfolioHeader', {to:"top"});
+      this.render('mygamehole', {to:"bottom"});
+    });
+
 Router.route('/blocjams', function () {    
       this.render('portfolioHeader', {to:"top"});
       this.render('blocjams', {to:"bottom"});
