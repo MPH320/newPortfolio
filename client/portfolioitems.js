@@ -53,12 +53,6 @@ function addItems()
 	}
 }
 
-Template.projects.rendered = function(){
-	flicker();
-}
-
-
-
 
  
 
