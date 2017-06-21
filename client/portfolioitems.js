@@ -1,6 +1,9 @@
 var height;
 var amount = 6;
 
+	
+
+
 function flicker() 
 {
 		var $img = $(".bw-img");
@@ -50,12 +53,14 @@ function addItems()
 	}
 }
 
-
-
 Template.projects.rendered = function(){
 	flicker();
 }
 
-Template.bloccit.rendered = function(){
-	flicker();
-}
+
+
+
+ 
+
+   
+

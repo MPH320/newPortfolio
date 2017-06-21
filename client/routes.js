@@ -23,9 +23,9 @@ Router.configure({
       this.render('contact', {to:"bottom"});
     });
 
- Router.route('/angular-jams', function () {    
+ Router.route('/angularjams', function () {    
       this.render('portfolioHeader', {to:"top"});
-      this.render('angular-jams', {to:"bottom"});
+      this.render('angularjams', {to:"bottom"});
     });
 
  Router.route('/bloccit', function () {    
@@ -36,4 +36,14 @@ Router.configure({
  Router.route('/pong', function () {    
       this.render('portfolioHeader', {to:"top"});
       this.render('pong', {to:"bottom"});
+    });
+
+Router.route('/htmlshare', function () {    
+      this.render('portfolioHeader', {to:"top"});
+      this.render('htmlshare', {to:"bottom"});
+    });
+
+Router.route('/blocjams', function () {    
+      this.render('portfolioHeader', {to:"top"});
+      this.render('blocjams', {to:"bottom"});
     });
