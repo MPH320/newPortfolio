@@ -41,12 +41,14 @@ function addItems()
 {
 	var position = $(".navbar-inverse").offset(); // position = { left: 42, top: 567 }
 
-	height = position.top/amount;
+	position = position.top + 2.3333333;
+
+	height = position/amount;
 
 	$( ".portfolio-nav" ).empty();
 
 	for (var i = 0; i<amount; i++){
-			$(".portfolio-nav").width(height).height(height);
+			$(".portfolio-nav").width(height).height(height);	
 	}
 }
 
