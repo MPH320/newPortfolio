@@ -4,17 +4,6 @@ Router.configure({
 
  Router.route('/', function () {    
       this.render('header', {to:"top"});
-      this.render('home', {to:"bottom"});
-    });
-
- Router.route('/admin', function () {    
-      this.render('header', {to:"top"});
-      this.render('admin', {to:"bottom"});
-    });
-
-
- Router.route('/projects', function () {    
-      this.render('header', {to:"top"});
       this.render('projects', {to:"bottom"});
     });
 
