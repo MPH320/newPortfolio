@@ -3,7 +3,24 @@ Template.header.rendered = function(){
 }
 
 Template.portfolioHeader.rendered = function(){
-	startParticles();
+		startParticles();
+	  $('.next').click(function () {
+        counter = (counter + 1) % stuff.length; 
+				window.location = stuff[counter];
+ 
+    });
+	
+	 $('.last').click(function () {
+        counter = (counter - 1); 
+		 
+		 if(counter == -1){
+			 counter = stuff.length - 1;
+		 }
+
+		 		window.location = stuff[counter];
+ 
+    });
+	
 }
 
 function startParticles(){

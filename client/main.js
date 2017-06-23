@@ -1,4 +1,4 @@
-var stuff = ['/bloccit', '/htmlshare', '/blocjams', '/pong', '/mygamehole', '/tweetsearch','/angularjams'],
+stuff = ['/bloccit', '/htmlshare', '/blocjams', '/pong', '/mygamehole', '/tweetsearch','/angularjams'],
 counter = 0;
 
 var addSpans = function(paragraph) 
@@ -41,7 +41,6 @@ var prepareLetters = function()
 
 Template.home.rendered = function(){
 	prepareLetters();
-	
 }
 
 Template.bloccit.rendered = function(){
@@ -99,27 +98,4 @@ Template.contactForm.rendered = function(){
 		$(".form-main").hide();
 		$(".thanks").css("display","block");
 	};
-}
-
-
-
-Template.portfolioHeader.rendered = function(){
-
-	  $('.next').click(function () {
-        counter = (counter + 1) % stuff.length; 
-				window.location = stuff[counter];
- 
-    });
-	
-	 $('.last').click(function () {
-        counter = (counter - 1); 
-		 
-		 if(counter == -1){
-			 counter = stuff.length - 1;
-		 }
-
-		 		window.location = stuff[counter];
- 
-    });
-	
 }

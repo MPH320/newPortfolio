@@ -21,7 +21,6 @@ function flicker()
 Template.portfolioNav.rendered = function(){
 
 	flicker();
-	
 
 	addItems(); 
 	
