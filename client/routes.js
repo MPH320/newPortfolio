@@ -4,6 +4,11 @@ Router.configure({
 
  Router.route('/', function () {    
       this.render('header', {to:"top"});
+      this.render('home', {to:"bottom"});
+    });
+
+ Router.route('/mywork', function () {    
+      this.render('header', {to:"top"});
       this.render('projects', {to:"bottom"});
     });
 

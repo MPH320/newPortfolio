@@ -5,7 +5,7 @@ body {
 }
 
 h1, h3, label {
-	color: white;
+	color: #222222;
 }
 
 canvas{
@@ -48,7 +48,7 @@ form {
 	margin-bottom: 6%;
 }
 
-.sm-img {
+.sm-img, .img-circle {
 	width: 200px;
 	height: 200px;
 }
@@ -71,17 +71,17 @@ form {
 .description{
  	font-weight: bolder;
  	font-size: 4em;
- 	color: white;
+ 	color: #222222;
  	position:absolute;
    top:50%;
    left:50%; 
    text-align:center;
    transform: translateX(-50%) translateY(-50%);
  	text-shadow:
- 		-1px -1px 0 #000,
- 		1px -1px 0 #000,
- 		-1px 1px 0 #000,
- 		1px 1px 0 #000;
+ 		-1px -1px 0 #fff,
+ 		1px -1px 0 #fff,
+ 		-1px 1px 0 #fff,
+ 		1px 1px 0 #fff;
 }
 
 .sparkle.animated {
