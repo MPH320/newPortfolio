@@ -36,7 +36,7 @@ Template.portfolioNav.rendered = function(){
 	
 }
 
-function addItems() 
+addItems = function () 
 {
 	var position = $(".navbar-inverse").offset(); // position = { left: 42, top: 567 }
 

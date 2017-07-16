@@ -44,36 +44,43 @@ Template.home.rendered = function(){
 }
 
 Template.bloccit.rendered = function(){
+	addItems(); 
 	prepareLetters();
 	counter = 0;
 }
 
 Template.htmlshare.rendered = function(){
+	addItems();
 	prepareLetters();
 	counter = 1;
 }
 
 Template.blocjams.rendered = function(){
+	addItems();
 	prepareLetters();
 	counter = 2;
 }
 
 Template.pong.rendered = function(){
+	addItems();
 	prepareLetters();
 	counter = 3;
 }
 
 Template.mygamehole.rendered = function(){
+	addItems();
 	prepareLetters();
 	counter = 4;
 }
 
 Template.tweetsearch.rendered = function(){
+	addItems();
 	prepareLetters();
 	counter = 5;
 }
 
 Template.angularjams.rendered = function(){
+	addItems();
 	prepareLetters();
 	counter = 6;
 }
