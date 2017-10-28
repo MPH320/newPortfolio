@@ -68,6 +68,16 @@ form {
 	display: none;
 }
 
+.navbar-header {
+    float: left;
+	
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+
 .description{
  	font-weight: bolder;
  	font-size: 4em;
